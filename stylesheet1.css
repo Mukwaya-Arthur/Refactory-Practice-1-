@@ -57,7 +57,7 @@ p{
     font-size:25px;
     color:white;
 }
-button2{
+button1{
     font-size:25px;
     font-family:Arial, Helvetica, sans-serif
     border: 3px solid blue;
@@ -65,9 +65,10 @@ button2{
     color: black;
     border-radius:3px;
     padding: 6px;
+    margin: 20px;
 
 }
-button2:hover{
+button1:hover{
     background-color: cornsilk;
 }
 
@@ -78,15 +79,9 @@ h2{
     color: black;
     
 }
-button{
-    height: 60px;
-    width:70px;
-    text-align: center;
-    padding: 10px;
-}
+
 .copy-container{
 	background: #E3F2FD;
-    background-color:;
     height: 500px;
 }
 h3{
@@ -103,7 +98,7 @@ h3{
     margin-right:100px;
 	
      
-    how to center align those images and reduce the space between them
+    
     
 }
   .facilitators p1 {
@@ -168,3 +163,70 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
+.footer{
+    padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: black;
+    border-radius: 4px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+    
+}
+.wrapper{
+    clear: both;
+    position: relative;
+    overflow: hidden;
+
+
+}
+h5{
+    font-size: 19px;
+}
+.col1{
+
+    text-align: center;
+    float: left;
+    display:inline-block;
+    margin-top: 7px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+.col2{
+    float: left;
+    text-align: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+}
+.col3{
+
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin-right:200px;
+    padding-right: 100px;
+}
+}
+.col4{
+
+    display: inline-block;
+    text-align: center;
+    float:right;
+    margin-top: 100px;
+    margin-right: 10px;
+    padding-right: 0px;
+}
+h6{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+b2{
+    border: 3px solid black;
+}
